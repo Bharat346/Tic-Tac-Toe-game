@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ttt.css">
+    <title>Tic-Tac-toe game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="label">
+            <label>
+                <input type="radio" name="symbol" id="fx" value="X" checked> X
+            </label>
+            <label>
+                <input type="radio" name="symbol" id="fo" value="O"> O
+            </label>
+        </div>
+        <div class="top">
+            <div id="tl" class="bhk" onclick="addSymbol('tl')"></div>
+            <div id="tm" class="bhk" onclick="addSymbol('tm')"></div>
+            <div id="tr" class="bhk" onclick="addSymbol('tr')"></div>
+        </div>
+        <div class="midd">
+            <div id="ml" class="bhk" onclick="addSymbol('ml')"></div>
+            <div id="mm" class="bhk" onclick="addSymbol('mm')"></div>
+            <div id="mr" class="bhk" onclick="addSymbol('mr')"></div>
+        </div>
+        <div class="bot">
+            <div id="bl" class="bhk" onclick="addSymbol('bl')"></div>
+            <div id="bm" class="bhk" onclick="addSymbol('bm')"></div>
+            <div id="br" class="bhk" onclick="addSymbol('br')"></div>
+        </div>
+        <div id="bottom"></div>
+    </div>
+</body>
+<script src="ttt.js"></script>
+</html>
